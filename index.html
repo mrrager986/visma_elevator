@@ -4,7 +4,7 @@
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- BASICS TO MAKE WEBSITE RESPONSIVE-->
             <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-            <title>basic structure</title>
+            <title>Vismalator</title>
             <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="css/main.css" />
         <!-- Normalize.ccs -->
@@ -16,31 +16,35 @@
         </script>
         <![endif]-->
     </head>
-    <div id="buttons">
-        <button id="buttonGround">Ground Floor</button>
-        <button id="button1">1</button>
-        <button id="button2">2</button>
-        <button id="button3">3</button>
-        <button id="button4">4</button>
-    </div>
-    <body>  
-        <div id="shaft">
-        <img id="liftOpen4" src="img/elevatorOpen.png">
-        <img id="liftClosed4" src="img/elevatorClosed.png">   
-        <span class="floorFour"> FLOOR 4 </span>
-        <img id="liftOpen3" src="img/elevatorOpen.png">
-        <img id="liftClosed3" src="img/elevatorClosed.png">   
-        <span class="floorThree"> FLOOR 3 </span>
-        <img id="liftOpen2" src="img/elevatorOpen.png">
-        <img id="liftClosed2" src="img/elevatorClosed.png">              
-        <span class="floorTwo"> FLOOR 2 </span>
-        <img id="liftOpen1" src="img/elevatorOpen.png">
-        <img id="liftClosed1" src="img/elevatorClosed.png">   
-        <span class="floorOne"> FLOOR 1 </span>
-        <img id="liftOpenG" src="img/elevatorOpen.png">
-        <img id="liftClosedG" src="img/elevatorClosed.png">    
-        <span class="groundFloor"> GROUND FLOOR </span>
-        </div>
+
+    <body>
+        <div id="container">
+            <div id="shaft">
+                <div id="currentFloor"><em>You are on floor</em> <strong>G,</strong><strong> 1,</strong><strong> 2,</strong><strong> 3,</strong><strong> 4</strong></div>
+            <span class="floorFour"> FLOOR 4 </span>
+                <img id="liftOpen4" src="img/elevatorOpen.png"> 
+                <img id="liftClosed4" src="img/elevatorClosed.png">  
+            <span class="floorThree"> FLOOR 3 </span>
+                <img id="liftOpen3" src="img/elevatorOpen.png">
+                <img id="liftClosed3" src="img/elevatorClosed.png"> 
+            <span class="floorTwo"> FLOOR 2 </span>
+                <img id="liftOpen2" src="img/elevatorOpen.png">
+                <img id="liftClosed2" src="img/elevatorClosed.png">  
+            <span class="floorOne"> FLOOR 1 </span>
+                <img id="liftOpen1" src="img/elevatorOpen.png">
+                <img id="liftClosed1" src="img/elevatorClosed.png">  
+            <span class="groundFloor"> GROUND FLOOR </span>
+                <img id="liftOpenG" src="img/elevatorOpen.png">
+                <img id="liftClosedG" src="img/elevatorClosed.png">  
+            <div id="buttons">
+                <button id="buttonGround" style="color:rgb(41, 41, 41)">Ground Floor</button>
+                <button id="button1" style="color:rgb(41, 41, 41)">1</button>
+                <button id="button2" style="color:rgb(41, 41, 41)">2</button>
+                <button id="button3" style="color:rgb(41, 41, 41)">3</button>
+                <button id="button4" style="color:rgb(41, 41, 41)">4</button>
+            </div>
+            </div>
+        </div>  <!-- container -->
           <script src="//code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
           <script src="script.js"></script>
     </body>

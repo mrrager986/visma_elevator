@@ -7,14 +7,24 @@ body {
     background: gray;
 }
 
+#container {
+
+}
+
+#currentFloor {
+    border: ridge 10px red;
+    background-color: brown;
+}
+
 #shaft {
     display: flex;
     flex-direction: column;
-    margin: 0 80% 2px 20%;
+    margin: 100px 300px 0 300px;
     border: solid 5px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 20px;
+    align-items: center;
 }
 
 #shaft span {
@@ -64,6 +74,7 @@ body {
     display: flex;
     margin: 20px auto 0;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #buttons button {
@@ -71,12 +82,14 @@ body {
     margin: 0 25px 0;
     height: 50px;
     border-radius: 15px;
+    background-size: cover;
 }
 
 button:hover {
-    background: red;
+    background: rgb(179, 53, 53);
 }
 
 button:active {
     background: rgb(0, 0, 0);
+    color: white;
 }
