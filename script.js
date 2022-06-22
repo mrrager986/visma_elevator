@@ -11,10 +11,7 @@ $(function() {
         $("strong:contains('3')").css('color','white');
         $("strong:contains('4')").css('color','white');    
         $(".groundFloor").css('color','green');   
-        $(".floorOne").css('color','white');   
-        $(".floorTwo").css('color','white');   
-        $(".floorThree").css('color','white');   
-        $(".floorFour").css('color','white');     
+        $(".floorOne, .floorOne, .floorTwo, .floorThree, .floorFour").css('color','white');   
     });
 
     // prve poschodie
@@ -27,10 +24,7 @@ $(function() {
         $("strong:contains('3')").css('color','white');
         $("strong:contains('4')").css('color','white');   
         $(".floorOne").css('color','green');  
-        $(".groundFloor").css('color','white');    
-        $(".floorTwo").css('color','white');   
-        $(".floorThree").css('color','white');   
-        $(".floorFour").css('color','white');     
+        $(".groundFloor, .floorTwo, .floorThree, .floorFour").css('color','white');        
     });
 
     // druhe poschodie,
@@ -43,10 +37,7 @@ $(function() {
         $("strong:contains('3')").css('color','white'); 
         $("strong:contains('4')").css('color','white');   
         $(".floorTwo").css('color','green');  
-        $(".groundFloor").css('color','white');   
-        $(".floorOne").css('color','white');     
-        $(".floorThree").css('color','white');   
-        $(".floorFour").css('color','white');             
+        $(".groundFloor, .floorOne, .floorThree, .floorFour").css('color','white');          
     });
     
     // tretie poschodie
@@ -59,10 +50,7 @@ $(function() {
         $("strong:contains('G')").css('color','white'); 
         $("strong:contains('4')").css('color','white');   
         $(".floorThree").css('color','green'); 
-        $(".groundFloor").css('color','white');   
-        $(".floorOne").css('color','white');   
-        $(".floorTwo").css('color','white');    
-        $(".floorFour").css('color','white');          
+        $(".groundFloor, .floorOne, .floorTwo, .floorFour").css('color','white');          
     });
     
     // stvrte poschodie
@@ -75,10 +63,7 @@ $(function() {
         $("strong:contains('3')").css('color','white'); 
         $("strong:contains('G')").css('color','white'); 
         $(".floorFour").css('color','green');  
-        $(".groundFloor").css('color','white');   
-        $(".floorOne").css('color','white');   
-        $(".floorTwo").css('color','white');   
-        $(".floorThree").css('color','white');              
+        $(".groundFloor, .floorOne, .floorTwo, .floorThree").css('color','white');        
     });
 
 });

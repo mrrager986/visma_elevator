@@ -11,9 +11,21 @@ body {
 
 }
 
+#vismaLogo {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    margin: 0 auto -100px;
+    justify-content: center;
+}
+
 #currentFloor {
     border: ridge 10px red;
     background-color: brown;
+}
+
+#currentFloor #startFloor {
+    color: black;
 }
 
 #shaft {
@@ -70,6 +82,11 @@ body {
 #liftClosedG {
     display: none;
 }
+
+.groundFloor {
+    color: green;
+}
+
 #buttons {
     display: flex;
     margin: 20px auto 0;
