@@ -1,6 +1,6 @@
 # visma_elevator
 
-This is [Visma.Bootcamp.Assignment](https://github.com/tomas-blanarik/Visma.Bootcamp.Assignment) built by [Jakub Dupej](https://jakubdupej.maweb.eu/).
+This is [Visma.Bootcamp.Assignment](https://github.com/tomas-blanarik/Visma.Bootcamp.Assignment) built by [Jakub Dupej](https://jakubdupej.maweb.eu/) in Visual Studio Code.
 
 ## SOLUTION
 
@@ -29,9 +29,11 @@ then I realised there should be a better way and picked all **elements** with sa
 ![page](img/vismalator.png)
 
 
-## HOW TO ACCESS MY PAGE
+## Access page
 
 > [Click Here](https://vismaelevator.jecool.net/)
+
+## Download Source Files in .rar
 > [Download](https://we.tl/t-xCBerGFCk6)
 
 
