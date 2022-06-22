@@ -17,11 +17,11 @@ This is [Visma.Bootcamp.Assignment](https://github.com/tomas-blanarik/Visma.Boot
 
  I applied this logic to all of the floors like this at first 
 
-![morecode](img/vismaelevatorcodemany.svg)
+![morecode](img/vismaelevatorcodemany.png)
 
 then I realised there should be a better way and picked all **elements** with same **action** when **selector** is **active**  + added a few functions including where is elevator right now and highlighted the floor text as well
 
-![lesscode](img/vismaelevatorcodeless.svg)
+![lesscode](img/vismaelevatorcodeless.png)
 
 
 
